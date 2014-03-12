@@ -23,6 +23,7 @@
 		18CA6DBC17BD16F300B1F975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA6D9717BD16F300B1F975 /* Foundation.framework */; };
 		18CA6DC417BD16F300B1F975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18CA6DC217BD16F300B1F975 /* InfoPlist.strings */; };
 		18CA6DC717BD16F300B1F975 /* AlertViewAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA6DC617BD16F300B1F975 /* AlertViewAnimationTests.m */; };
+		18CA6DD117BD198300B1F975 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA6DD017BD198300B1F975 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		18CA6DC317BD16F300B1F975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18CA6DC517BD16F300B1F975 /* AlertViewAnimationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewAnimationTests.h; sourceTree = "<group>"; };
 		18CA6DC617BD16F300B1F975 /* AlertViewAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewAnimationTests.m; sourceTree = "<group>"; };
+		18CA6DD017BD198300B1F975 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CA6DD117BD198300B1F975 /* QuartzCore.framework in Frameworks */,
 				18CA6D9617BD16F300B1F975 /* UIKit.framework in Frameworks */,
 				18CA6D9817BD16F300B1F975 /* Foundation.framework in Frameworks */,
 				18CA6D9A17BD16F300B1F975 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +90,7 @@
 		18CA6D8917BD16F300B1F975 = {
 			isa = PBXGroup;
 			children = (
+				18CA6DD017BD198300B1F975 /* QuartzCore.framework */,
 				18CA6D9B17BD16F300B1F975 /* AlertViewAnimation */,
 				18CA6DBF17BD16F300B1F975 /* AlertViewAnimationTests */,
 				18CA6D9417BD16F300B1F975 /* Frameworks */,
